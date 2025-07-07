@@ -47,7 +47,7 @@ st.set_page_config(page_title="Final_App", layout="wide")
 st.markdown("<h1 style='text-align: center; color: #4CAF50;'>Prediction on Historical Data</h1>", unsafe_allow_html=True)
 
 # Load trained neural network model and preprocessing bundle
-nn_bundle = joblib.load("D:/Lab/Model/nn_2025-07-04_15-18-13.pkl")
+nn_bundle = joblib.load("./nn_2025-07-04_15-18-13.pkl")
 preprocess_bundle = joblib.load("./preprocessing_bundle.pkl")
 
 # Extract model and preprocessing elements
