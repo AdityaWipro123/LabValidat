@@ -48,7 +48,7 @@ st.markdown("<h1 style='text-align: center; color: #4CAF50;'>Prediction on Histo
 
 # Load trained neural network model and preprocessing bundle
 nn_bundle = joblib.load("D:/Lab/Model/nn_2025-07-04_15-18-13.pkl")
-preprocess_bundle = joblib.load("D:/Lab/Model/preprocessing_bundle.pkl")
+preprocess_bundle = joblib.load("./preprocessing_bundle.pkl")
 
 # Extract model and preprocessing elements
 nn_model = nn_bundle["model"]
